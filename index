@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#1A2E44">
+<link rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIiB2aWV3Qm94PSIwIDAgMTgwIDE4MCI+CiAgPGRlZnM+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9ImJnIiBjeD0iNTAlIiBjeT0iNTAlIiByPSI1MCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMWUzYTVmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBkMWYzNSIvPgogICAgPC9yYWRpYWxHcmFkaWVudD4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iZ2xvdyIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNTAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZERTY4QSIgc3RvcC1vcGFjaXR5PSIwLjYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRjU5RTBCIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIiByeD0iMzgiIGZpbGw9InVybCgjYmcpIi8+CiAgPGNpcmNsZSBjeD0iOTAiIGN5PSI5MCIgcj0iNjgiIGZpbGw9InVybCgjZ2xvdykiLz4KICA8Y2lyY2xlIGN4PSI5MCIgY3k9IjkwIiByPSI2MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRjU5RTBCIiBzdHJva2Utd2lkdGg9IjEiIG9wYWNpdHk9IjAuMiIvPgogIDxjaXJjbGUgY3g9IjkwIiBjeT0iOTAiIHI9IjUyIiBmaWxsPSJub25lIiBzdHJva2U9IiNGQkJGMjQiIHN0cm9rZS13aWR0aD0iMS41IiBvcGFjaXR5PSIwLjMiLz4KICA8Y2lyY2xlIGN4PSI5MCIgY3k9IjkwIiByPSIzNiIgZmlsbD0iI0Y1OUUwQiIvPgogIDxjaXJjbGUgY3g9IjkwIiBjeT0iOTAiIHI9IjMwIiBmaWxsPSIjRkNEMzREIi8+CiAgPGcgc3Ryb2tlPSIjRjU5RTBCIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iNiI+CiAgICA8bGluZSB4MT0iOTAiIHkxPSIxMCIgeDI9IjkwIiB5Mj0iMjYiLz4KICAgIDxsaW5lIHgxPSI5MCIgeTE9IjE1NCIgeDI9IjkwIiB5Mj0iMTcwIi8+CiAgICA8bGluZSB4MT0iMTAiIHkxPSI5MCIgeDI9IjI2IiB5Mj0iOTAiLz4KICAgIDxsaW5lIHgxPSIxNTQiIHkxPSI5MCIgeDI9IjE3MCIgeTI9IjkwIi8+CiAgPC9nPgogIDxnIHN0cm9rZT0iI0ZCQkYyNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjUiPgogICAgPGxpbmUgeDE9IjM2IiB5MT0iMzYiIHgyPSI0OCIgeTI9IjQ4Ii8+CiAgICA8bGluZSB4MT0iMTMyIiB5MT0iMTMyIiB4Mj0iMTQ0IiB5Mj0iMTQ0Ii8+CiAgICA8bGluZSB4MT0iMTQ0IiB5MT0iMzYiIHgyPSIxMzIiIHkyPSI0OCIvPgogICAgPGxpbmUgeDE9IjQ4IiB5MT0iMTMyIiB4Mj0iMzYiIHkyPSIxNDQiLz4KICA8L2c+CiAgPGNpcmNsZSBjeD0iODIiIGN5PSI4MiIgcj0iMTAiIGZpbGw9IiNGRUYzQzciIG9wYWNpdHk9IjAuNDUiLz4KPC9zdmc+"/>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIiB2aWV3Qm94PSIwIDAgMTgwIDE4MCI+CiAgPGRlZnM+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9ImJnIiBjeD0iNTAlIiBjeT0iNTAlIiByPSI1MCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMWUzYTVmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBkMWYzNSIvPgogICAgPC9yYWRpYWxHcmFkaWVudD4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iZ2xvdyIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNTAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZERTY4QSIgc3RvcC1vcGFjaXR5PSIwLjYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRjU5RTBCIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIiByeD0iMzgiIGZpbGw9InVybCgjYmcpIi8+CiAgPGNpcmNsZSBjeD0iOTAiIGN5PSI5MCIgcj0iNjgiIGZpbGw9InVybCgjZ2xvdykiLz4KICA8Y2lyY2xlIGN4PSI5MCIgY3k9IjkwIiByPSI2MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRjU5RTBCIiBzdHJva2Utd2lkdGg9IjEiIG9wYWNpdHk9IjAuMiIvPgogIDxjaXJjbGUgY3g9IjkwIiBjeT0iOTAiIHI9IjUyIiBmaWxsPSJub25lIiBzdHJva2U9IiNGQkJGMjQiIHN0cm9rZS13aWR0aD0iMS41IiBvcGFjaXR5PSIwLjMiLz4KICA8Y2lyY2xlIGN4PSI5MCIgY3k9IjkwIiByPSIzNiIgZmlsbD0iI0Y1OUUwQiIvPgogIDxjaXJjbGUgY3g9IjkwIiBjeT0iOTAiIHI9IjMwIiBmaWxsPSIjRkNEMzREIi8+CiAgPGcgc3Ryb2tlPSIjRjU5RTBCIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iNiI+CiAgICA8bGluZSB4MT0iOTAiIHkxPSIxMCIgeDI9IjkwIiB5Mj0iMjYiLz4KICAgIDxsaW5lIHgxPSI5MCIgeTE9IjE1NCIgeDI9IjkwIiB5Mj0iMTcwIi8+CiAgICA8bGluZSB4MT0iMTAiIHkxPSI5MCIgeDI9IjI2IiB5Mj0iOTAiLz4KICAgIDxsaW5lIHgxPSIxNTQiIHkxPSI5MCIgeDI9IjE3MCIgeTI9IjkwIi8+CiAgPC9nPgogIDxnIHN0cm9rZT0iI0ZCQkYyNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjUiPgogICAgPGxpbmUgeDE9IjM2IiB5MT0iMzYiIHgyPSI0OCIgeTI9IjQ4Ii8+CiAgICA8bGluZSB4MT0iMTMyIiB5MT0iMTMyIiB4Mj0iMTQ0IiB5Mj0iMTQ0Ii8+CiAgICA8bGluZSB4MT0iMTQ0IiB5MT0iMzYiIHgyPSIxMzIiIHkyPSI0OCIvPgogICAgPGxpbmUgeDE9IjQ4IiB5MT0iMTMyIiB4Mj0iMzYiIHkyPSIxNDQiLz4KICA8L2c+CiAgPGNpcmNsZSBjeD0iODIiIGN5PSI4MiIgcj0iMTAiIGZpbGw9IiNGRUYzQzciIG9wYWNpdHk9IjAuNDUiLz4KPC9zdmc+"/>
+<meta name="apple-mobile-web-app-title" content="Solar"/>
+<title>Solar Net Metering</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Fraunces:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --sun: #F5A623;
+    --sun-light: #FDE8BB;
+    --sun-pale: #FEF6E4;
+    --sky: #1A2E44;
+    --sky-mid: #2C4A6E;
+    --sky-light: #3D6B9E;
+    --credit: #48BB78;
+    --deficit: #F56565;
+    --card: #FFFFFF;
+    --border: #E8EDF2;
+    --text: #1A2E44;
+    --text-muted: #6B7C93;
+    --bg: #F4F7FA;
+    --safe-top: env(safe-area-inset-top, 0px);
+    --safe-bot: env(safe-area-inset-bottom, 0px);
+    --safe-l: env(safe-area-inset-left, 0px);
+    --safe-r: env(safe-area-inset-right, 0px);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'DM Mono', monospace;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: var(--sky);
+    color: white;
+    padding-top: var(--safe-top);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .header-inner {
+    padding: 16px 16px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .header-bg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 80% 50%, rgba(245,166,35,0.18) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .sun-icon {
+    width: 36px; height: 36px;
+    background: var(--sun);
+    border-radius: 50%;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 6px rgba(245,166,35,0.2);
+    animation: pulse 4s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%,100% { box-shadow: 0 0 0 6px rgba(245,166,35,0.2); }
+    50% { box-shadow: 0 0 0 10px rgba(245,166,35,0.15); }
+  }
+  .header-title-group { display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0; }
+  .header h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .header h1 span { color: var(--sun); }
+  .header-sub { font-size: 10px; opacity: 0.55; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 2px; }
+  .header-stats { display: flex; gap: 16px; flex-shrink: 0; }
+  .hstat { text-align: right; }
+  .hstat-label { font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.5; }
+  .hstat-value { font-family: 'Fraunces', serif; font-size: 16px; font-weight: 600; }
+  .hstat-value.positive { color: var(--credit); }
+  .hstat-value.negative { color: var(--deficit); }
+  .hstat-value.neutral { color: var(--sun); }
+
+  /* ── BOTTOM NAV (mobile) ── */
+  .bottom-nav {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: var(--sky);
+    display: flex;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: var(--safe-bot);
+    z-index: 100;
+  }
+  .bnav-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 4px 8px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: rgba(255,255,255,0.4);
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.04em;
+    gap: 3px;
+    transition: color 0.15s;
+    -webkit-tap-highlight-color: transparent;
+    min-height: 56px;
+  }
+  .bnav-item.active { color: var(--sun); }
+  .bnav-item svg { width: 20px; height: 20px; stroke-width: 1.8; fill: none; stroke: currentColor; }
+
+  /* ── TOP TABS (desktop) ── */
+  .top-tabs {
+    background: var(--sky-mid);
+    display: none;
+  }
+  .top-tabs-inner { display: flex; gap: 2px; padding: 0 24px; max-width: 1280px; margin: 0 auto; }
+  .tab {
+    padding: 11px 18px;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: 'DM Mono', monospace;
+    position: relative;
+    transition: color 0.2s;
+    white-space: nowrap;
+  }
+  .tab:hover { color: rgba(255,255,255,0.8); }
+  .tab.active { color: var(--sun); }
+  .tab.active::after { content:''; position:absolute; bottom:0;left:0;right:0; height:2px; background:var(--sun); }
+
+  /* ── MAIN ── */
+  .main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 16px 16px calc(72px + var(--safe-bot));
+  }
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  /* ── CARDS ── */
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
+  .card + .card { margin-top: 14px; }
+  .card-title {
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--sky);
+    margin-bottom: 14px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .card-title .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--sun); flex-shrink: 0; }
+
+  /* ── GRIDS ── */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .grid-4 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .section-gap { margin-top: 16px; }
+
+  /* ── STAT TILES ── */
+  .stat-tile { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 16px; position: relative; overflow: hidden; }
+  .stat-tile::before { content:''; position:absolute; top:0;left:0;right:0; height:3px; }
+  .stat-tile.credit::before { background: var(--credit); }
+  .stat-tile.deficit::before { background: var(--deficit); }
+  .stat-tile.solar::before { background: var(--sun); }
+  .stat-tile.usage::before { background: var(--sky-light); }
+  .stat-label { font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 6px; }
+  .stat-number { font-family: 'Fraunces', serif; font-size: 26px; font-weight: 600; line-height: 1; }
+  .stat-number.pos { color: var(--credit); }
+  .stat-number.neg { color: var(--deficit); }
+  .stat-number.sun { color: var(--sun); }
+  .stat-number.sky { color: var(--sky-light); }
+  .stat-unit { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+
+  /* ── FORMS ── */
+  .form-stack { display: flex; flex-direction: column; gap: 12px; }
+  .form-group { display: flex; flex-direction: column; gap: 6px; }
+  .form-label { font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted); }
+  input[type="date"], input[type="number"], input[type="text"], select {
+    padding: 13px 14px;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 16px; /* prevents iOS zoom */
+    color: var(--text);
+    background: white;
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  input:focus, select:focus { outline: none; border-color: var(--sun); box-shadow: 0 0 0 3px rgba(245,166,35,0.15); }
+  .form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+  .btn {
+    padding: 14px 20px;
+    border: none; border-radius: 10px;
+    cursor: pointer;
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.2s;
+    min-height: 48px;
+    display: inline-flex; align-items: center; justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  .btn-primary { background: var(--sky); color: white; }
+  .btn-primary:active { background: var(--sky-mid); }
+  .btn-sun { background: var(--sun); color: var(--sky); font-weight: 600; }
+  .btn-sun:active { background: #e8961a; }
+  .btn-ghost { background: transparent; color: var(--text-muted); border: 1.5px solid var(--border); }
+  .btn-ghost:active { background: var(--bg); }
+  .btn-danger { background: transparent; color: var(--deficit); border: 1.5px solid rgba(245,101,101,0.3); padding: 8px 14px; font-size: 11px; min-height: 36px; border-radius: 8px; }
+  .btn-full { width: 100%; }
+  .btn-row { display: flex; gap: 10px; flex-wrap: wrap; }
+
+  /* ── TABLE ── */
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 10px; }
+  .data-table { width: 100%; border-collapse: collapse; font-size: 12px; min-width: 380px; }
+  .data-table th { font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  .data-table td { padding: 10px 10px; border-bottom: 1px solid var(--bg); }
+  .data-table tr:last-child td { border-bottom: none; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 20px; font-size: 10px; font-weight: 500; }
+  .badge-credit { background: rgba(72,187,120,0.12); color: #276749; }
+  .badge-deficit { background: rgba(245,101,101,0.12); color: #9b2c2c; }
+  .badge-monthly { background: rgba(61,107,158,0.12); color: #1a4a7a; }
+  .row-monthly td { background: rgba(61,107,158,0.04); font-style: italic; }
+
+  /* ── BALANCE BAR ── */
+  .balance-bar-track { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+  .balance-bar-fill { height: 100%; border-radius: 4px; transition: width 0.5s ease; background: var(--credit); }
+  .balance-bar-fill.neg { background: var(--deficit); }
+
+  /* ── CHARTS ── */
+  .chart-wrap { position: relative; height: 240px; }
+  .chart-wrap-sm { position: relative; height: 200px; }
+  .chart-wrap-lg { position: relative; height: 300px; }
+
+  /* ── MONTH NAV ── */
+  .month-nav { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+  .month-nav select { flex: 1; }
+
+  /* ── PREDICTION ── */
+  .predict-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .predict-cell { display: flex; flex-direction: column; gap: 5px; }
+  .predict-cell label { font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted); }
+  .predict-cell input { padding: 10px 8px; font-size: 14px; text-align: center; }
+  .predict-result { padding: 16px; border-radius: 12px; margin-top: 14px; }
+  .predict-result.pos { background: rgba(72,187,120,0.1); border: 1px solid rgba(72,187,120,0.3); }
+  .predict-result.neg { background: rgba(245,101,101,0.08); border: 1px solid rgba(245,101,101,0.3); }
+  .predict-result-label { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px; }
+  .predict-result-value { font-family: 'Fraunces', serif; font-size: 26px; font-weight: 600; }
+  .predict-result.pos .predict-result-value { color: var(--credit); }
+  .predict-result.neg .predict-result-value { color: var(--deficit); }
+  .predict-meta { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 10px; }
+  .predict-meta-item { display: flex; flex-direction: column; gap: 2px; }
+  .predict-meta-item span:first-child { font-size: 9px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  .predict-meta-item span:last-child { font-family: 'Fraunces', serif; font-size: 20px; font-weight: 600; }
+
+  /* ── WINTER GOAL SECTION ── */
+  .winter-goal-banner {
+    background: linear-gradient(135deg, var(--sky) 0%, var(--sky-mid) 100%);
+    color: white;
+    border-radius: 14px;
+    padding: 18px;
+    margin-bottom: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+  .winter-goal-banner::before {
+    content: '❄️';
+    position: absolute;
+    right: 16px; top: 12px;
+    font-size: 40px;
+    opacity: 0.25;
+  }
+  .winter-goal-title { font-family: 'Fraunces', serif; font-size: 17px; font-weight: 600; margin-bottom: 6px; }
+  .winter-goal-sub { font-size: 11px; opacity: 0.65; line-height: 1.5; }
+  .scenario-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+  .scenario-card {
+    border-radius: 12px;
+    padding: 14px;
+    border: 1.5px solid;
+  }
+  .scenario-card.high { border-color: rgba(245,101,101,0.4); background: rgba(245,101,101,0.05); }
+  .scenario-card.low { border-color: rgba(72,187,120,0.4); background: rgba(72,187,120,0.05); }
+  .scenario-label { font-size: 9px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 4px; }
+  .scenario-value { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600; }
+  .scenario-card.high .scenario-value { color: var(--deficit); }
+  .scenario-card.low .scenario-value { color: var(--credit); }
+  .scenario-detail { font-size: 10px; color: var(--text-muted); margin-top: 4px; line-height: 1.4; }
+  .goal-progress-wrap { margin-bottom: 8px; }
+  .goal-progress-label { display: flex; justify-content: space-between; font-size: 10px; color: var(--text-muted); margin-bottom: 5px; }
+  .goal-progress-track { height: 10px; background: var(--border); border-radius: 5px; overflow: hidden; position: relative; }
+  .goal-progress-fill { height: 100%; border-radius: 5px; transition: width 0.6s ease; position: relative; }
+  .goal-progress-fill.good { background: linear-gradient(90deg, var(--credit), #38a169); }
+  .goal-progress-fill.warn { background: linear-gradient(90deg, var(--sun), #d97706); }
+  .goal-progress-fill.bad { background: linear-gradient(90deg, var(--deficit), #c53030); }
+  .goal-threshold { position: absolute; top: 0; bottom: 0; width: 2px; background: rgba(0,0,0,0.3); }
+
+  /* ── DOLLAR TILES ── */
+  .stat-tile.saved::before { background: #38a169; }
+  .stat-tile.banked::before { background: var(--sun); }
+  .stat-tile.owed::before { background: var(--deficit); }
+  .stat-tile.netbanked::before { background: var(--credit); }
+  .stat-tile.netbanked.short::before { background: var(--deficit); }
+  .stat-number.green { color: #276749; }
+  .stat-number.gold { color: #b7791f; }
+  .stat-sub { font-size: 10px; color: var(--text-muted); margin-top: 5px; line-height: 1.4; }
+  .rate-badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    background: var(--sun-light); color: #7a4a00;
+    border-radius: 12px; padding: 2px 8px;
+    font-size: 10px; cursor: pointer;
+    border: 1px solid rgba(245,166,35,0.3);
+    transition: background 0.15s;
+    margin-top: 6px;
+  }
+  .rate-badge:hover { background: #fde08a; }
+  .rate-edit-row { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+  .rate-input-inline {
+    width: 90px; padding: 6px 8px;
+    border: 1.5px solid var(--sun);
+    border-radius: 8px; font-family: 'DM Mono', monospace;
+    font-size: 15px; color: var(--text);
+    background: white;
+  }
+  .rate-input-inline:focus { outline: none; box-shadow: 0 0 0 3px rgba(245,166,35,0.2); }
+  .btn-rate-save { padding: 6px 14px; font-size: 11px; background: var(--sun); color: var(--sky); border: none; border-radius: 8px; font-family: 'DM Mono', monospace; font-weight: 600; cursor: pointer; }
+
+  /* ── SETTINGS PANEL ── */
+  .settings-row { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap; }
+  .settings-row:last-child { border-bottom: none; }
+  .settings-label { font-size: 13px; font-weight: 500; color: var(--text); }
+  .settings-desc { font-size: 11px; color: var(--text-muted); margin-top: 2px; line-height: 1.4; }
+
+  /* ── ARCHIVE ── */
+  .archive-year-header { font-family: 'Fraunces', serif; font-size: 20px; font-weight: 600; color: var(--sky); margin-bottom: 10px; }
+  .archive-meta { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+  .archive-year { margin-bottom: 24px; }
+
+  /* ── EMPTY ── */
+  .empty { text-align: center; padding: 40px 20px; color: var(--text-muted); }
+  .empty-icon { font-size: 36px; margin-bottom: 10px; }
+  .empty-text { font-size: 12px; line-height: 1.5; }
+
+  /* ── DIVIDER ── */
+  .divider { height: 1px; background: var(--border); margin: 16px 0; }
+
+  /* ── INFO PILL ── */
+  .info-pill { display: inline-flex; align-items: center; gap: 5px; background: var(--sun-light); color: #7a4a00; border-radius: 20px; padding: 4px 10px; font-size: 10px; flex-wrap: wrap; }
+
+  /* ── SECTION HEADER ── */
+  .section-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 14px; flex-wrap: wrap; gap: 10px; }
+  .section-title { font-family: 'Fraunces', serif; font-size: 20px; font-weight: 600; color: var(--sky); }
+
+  /* ── DESKTOP OVERRIDES ── */
+  @media (min-width: 700px) {
+    .top-tabs { display: block; }
+    .bottom-nav { display: none; }
+    .main { padding: 28px 28px 40px; }
+    .header-inner { padding: 20px 28px 16px; }
+    .header h1 { font-size: 22px; }
+    .sun-icon { width: 44px; height: 44px; }
+    .grid-4 { grid-template-columns: repeat(4, 1fr); }
+    .predict-grid { grid-template-columns: repeat(6, 1fr); }
+    .chart-wrap { height: 280px; }
+    .chart-wrap-sm { height: 240px; }
+    .chart-wrap-lg { height: 360px; }
+    .header-stats { gap: 24px; }
+    .hstat-value { font-size: 20px; }
+    .hstat-label { font-size: 10px; }
+  }
+  @media (min-width: 1000px) {
+    .main-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .main-grid-2 .card + .card { margin-top: 0; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-bg"></div>
+  <div class="header-inner" style="position:relative;z-index:2">
+    <div class="header-title-group">
+      <div class="sun-icon"></div>
+      <div>
+        <h1><span>Solar</span> Net Metering</h1>
+        <div class="header-sub">Maine · Credit Tracker</div>
+      </div>
+    </div>
+    <div class="header-stats">
+      <div class="hstat">
+        <div class="hstat-label">Month</div>
+        <div class="hstat-value neutral" id="hMonthBal">— kWh</div>
+      </div>
+      <div class="hstat">
+        <div class="hstat-label">12-Mo</div>
+        <div class="hstat-value positive" id="hYearBal">— kWh</div>
+      </div>
+    </div>
+  </div>
+  <!-- Desktop tabs -->
+  <div class="top-tabs">
+    <div class="top-tabs-inner">
+      <button class="tab active" onclick="switchTab('log',this)">Daily Log</button>
+      <button class="tab" onclick="switchTab('dashboard',this)">Dashboard</button>
+      <button class="tab" onclick="switchTab('charts',this)">Charts</button>
+      <button class="tab" onclick="switchTab('predict',this)">Predictive Model</button>
+      <button class="tab" onclick="switchTab('archive',this)">Archive</button>
+      <button class="tab" onclick="switchTab('settings',this)">Settings</button>
+    </div>
+  </div>
+</div>
+
+<!-- BOTTOM NAV (mobile) -->
+<nav class="bottom-nav">
+  <button class="bnav-item active" onclick="switchTab('log',this)" data-tab="log">
+    <svg viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+    Log
+  </button>
+  <button class="bnav-item" onclick="switchTab('dashboard',this)" data-tab="dashboard">
+    <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+    Dash
+  </button>
+  <button class="bnav-item" onclick="switchTab('charts',this)" data-tab="charts">
+    <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    Charts
+  </button>
+  <button class="bnav-item" onclick="switchTab('predict',this)" data-tab="predict">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    Predict
+  </button>
+  <button class="bnav-item" onclick="switchTab('archive',this)" data-tab="archive">
+    <svg viewBox="0 0 24 24"><polyline points="21 8 21 21 3 21 3 8"/><rect x="1" y="3" width="22" height="5" rx="1"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+    Archive
+  </button>
+  <button class="bnav-item" onclick="switchTab('settings',this)" data-tab="settings">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+    Settings
+  </button>
+</nav>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- ═══ LOG ═══ -->
+  <div class="panel active" id="panel-log">
+    <div class="section-header">
+      <div class="section-title">Log Energy</div>
+      <div class="info-pill">📅 Any past date works</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><span class="dot"></span>Add / Edit Entry</div>
+      <div class="form-stack">
+        <div class="form-group">
+          <label class="form-label">Date (today or any past date)</label>
+          <input type="date" id="entryDate">
+        </div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label class="form-label">☀️ Solar Generated (kWh)</label>
+            <input type="number" id="entrySolar" placeholder="0.0" step="0.01" min="0" inputmode="decimal">
+          </div>
+          <div class="form-group">
+            <label class="form-label">⚡ Household Used (kWh)</label>
+            <input type="number" id="entryUsage" placeholder="0.0" step="0.01" min="0" inputmode="decimal">
+          </div>
+        </div>
+        <button class="btn btn-sun btn-full" onclick="addEntry()">+ Save Entry</button>
+      </div>
+      <div style="margin-top:10px;font-size:10px;color:var(--text-muted);line-height:1.6">
+        Saving an entry for a date that already exists will overwrite it with the new values.
+      </div>
+    </div>
+
+    <!-- MONTHLY BULK ENTRY -->
+    <div class="card section-gap">
+      <div class="card-title"><span class="dot" style="background:var(--sky-light)"></span>Add / Edit Monthly Total</div>
+      <p style="font-size:11px;color:var(--text-muted);margin-bottom:14px;line-height:1.6">
+        Enter a full month's totals at once — great for backfilling past months. This saves the month as a single record and is shown separately from daily entries.
+      </p>
+      <div class="form-stack">
+        <div class="form-row-2">
+          <div class="form-group">
+            <label class="form-label">Month</label>
+            <select id="bulkMonth"></select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Year</label>
+            <select id="bulkYear"></select>
+          </div>
+        </div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label class="form-label">☀️ Total Solar Generated (kWh)</label>
+            <input type="number" id="bulkSolar" placeholder="e.g. 620.5" step="0.1" min="0" inputmode="decimal">
+          </div>
+          <div class="form-group">
+            <label class="form-label">⚡ Total Household Used (kWh)</label>
+            <input type="number" id="bulkUsage" placeholder="e.g. 880.0" step="0.1" min="0" inputmode="decimal">
+          </div>
+        </div>
+        <button class="btn btn-primary btn-full" onclick="addMonthlyEntry()">+ Save Monthly Total</button>
+      </div>
+      <div style="margin-top:10px;font-size:10px;color:var(--text-muted);line-height:1.6">
+        If you later add individual daily entries for the same month, the monthly total record can be deleted from the log table below. Daily entries always take precedence for that month's totals once added.
+      </div>
+    </div>
+
+    <div class="section-gap">
+      <div class="month-nav">
+        <select id="logMonthFilter" onchange="renderLogTable()"></select>
+        <span style="font-size:11px;color:var(--text-muted)" id="logEntriesCount"></span>
+      </div>
+
+      <div class="card" style="padding:0;overflow:hidden;">
+        <div id="logTableWrap">
+          <div class="empty"><div class="empty-icon">📋</div><div class="empty-text">No entries yet.<br>Add your first reading above.</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-gap grid-4">
+      <div class="stat-tile solar">
+        <div class="stat-label">Month Solar</div>
+        <div class="stat-number sun" id="tileMoSolar">0.0</div>
+        <div class="stat-unit">kWh generated</div>
+      </div>
+      <div class="stat-tile usage">
+        <div class="stat-label">Month Usage</div>
+        <div class="stat-number sky" id="tileMoUsage">0.0</div>
+        <div class="stat-unit">kWh consumed</div>
+      </div>
+      <div class="stat-tile credit" id="tileMoBalTile">
+        <div class="stat-label">Month Balance</div>
+        <div class="stat-number pos" id="tileMoBal">0.0</div>
+        <div class="stat-unit" id="tileMoBalLabel">kWh net credit</div>
+      </div>
+      <div class="stat-tile credit" id="tileYrBalTile">
+        <div class="stat-label">Rolling 12-Mo kWh</div>
+        <div class="stat-number pos" id="tileYrBal">0.0</div>
+        <div class="stat-unit" id="tileYrBalLabel">kWh net credit</div>
+        <div class="stat-sub" id="tileExpiry" style="color:#b7791f"></div>
+      </div>
+    </div>
+
+    <!-- ── DOLLAR CALCULATIONS ── -->
+    <div class="section-gap" style="margin-bottom:8px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">
+      <div style="font-family:'Fraunces',serif;font-size:15px;font-weight:600;color:var(--sky)">💰 Dollar Value Summary</div>
+      <span class="rate-badge" onclick="toggleRateEdit('log')" title="Tap to edit rate">
+        ✏️ Rate: $<span id="logRateDisplay">0.28</span>/kWh
+      </span>
+    </div>
+    <div id="logRateEditRow" style="display:none;margin-bottom:10px">
+      <div class="rate-edit-row">
+        <span style="font-size:12px;color:var(--text-muted)">$/kWh:</span>
+        <input class="rate-input-inline" type="number" id="logRateInput" step="0.01" min="0.01" max="2" placeholder="0.28" />
+        <button class="btn-rate-save" onclick="saveRate('log')">Save</button>
+        <button class="btn btn-ghost" style="padding:6px 12px;font-size:11px;min-height:unset" onclick="toggleRateEdit('log')">Cancel</button>
+      </div>
+    </div>
+    <div class="grid-4" style="grid-template-columns:repeat(2,1fr)">
+      <div class="stat-tile saved">
+        <div class="stat-label">☀️ Saved This Month</div>
+        <div class="stat-number green" id="tileDollarSaved">$0.00</div>
+        <div class="stat-unit">solar generated × rate</div>
+      </div>
+      <div class="stat-tile banked">
+        <div class="stat-label">🏦 Banked (Rolling 12-Mo Credits)</div>
+        <div class="stat-number gold" id="tileDollarBankedYTD">$0.00</div>
+        <div class="stat-sub" id="tileDollarBankedMo" style="color:#276749"></div>
+      </div>
+      <div class="stat-tile owed">
+        <div class="stat-label">⚡ Owed This Month</div>
+        <div class="stat-number neg" id="tileDollarOwed">$0.00</div>
+        <div class="stat-unit">grid usage deficit × rate</div>
+      </div>
+      <div class="stat-tile netbanked" id="tileDollarNetTile">
+        <div class="stat-label">💵 Banked After Owed</div>
+        <div class="stat-number green" id="tileDollarNet">$0.00</div>
+        <div class="stat-unit">banked credits − owed this month</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ DASHBOARD ═══ -->
+  <div class="panel" id="panel-dashboard">
+    <div class="section-header"><div class="section-title">Dashboard</div></div>
+    <div class="grid-4">
+      <div class="stat-tile solar"><div class="stat-label">Month Solar</div><div class="stat-number sun" id="dashMoSolar">0.0</div><div class="stat-unit">kWh generated</div></div>
+      <div class="stat-tile usage"><div class="stat-label">Month Usage</div><div class="stat-number sky" id="dashMoUsage">0.0</div><div class="stat-unit">kWh consumed</div></div>
+      <div class="stat-tile" id="dashMoBalTile"><div class="stat-label">Month Balance</div><div class="stat-number" id="dashMoBal">0.0</div><div class="stat-unit" id="dashMoBalUnit">kWh</div></div>
+      <div class="stat-tile" id="dashYrBalTile"><div class="stat-label">12-Mo Balance</div><div class="stat-number" id="dashYrBal">0.0</div><div class="stat-unit" id="dashYrBalUnit">kWh</div><div class="stat-sub" id="dashExpiry" style="color:#b7791f"></div></div>
+    </div>
+
+    <div class="section-gap main-grid-2">
+      <div class="card">
+        <div class="card-title"><span class="dot"></span>Month Coverage</div>
+        <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text-muted);margin-bottom:6px">
+          <span>☀️ <strong id="dashBarSolar" style="color:var(--sun)">0</strong> kWh</span>
+          <span>⚡ <strong id="dashBarUsage" style="color:var(--sky-light)">0</strong> kWh</span>
+        </div>
+        <div class="balance-bar-track">
+          <div class="balance-bar-fill" id="dashBar" style="width:0%"></div>
+        </div>
+        <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--text-muted);margin-top:4px">
+          <span>0%</span><span id="dashBarPct">0% solar coverage</span>
+        </div>
+        <div class="divider"></div>
+        <div style="font-size:11px;color:var(--text-muted);line-height:1.7" id="dashInsight">Add entries to see monthly insights.</div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="dot"></span>Recent 7 Days</div>
+        <div id="dashRecentTable"><div class="empty"><div class="empty-text">No entries yet.</div></div></div>
+      </div>
+    </div>
+
+    <div class="section-gap">
+      <div class="card">
+        <div class="card-title"><span class="dot"></span>12-Month Net Balance Trend</div>
+        <div class="chart-wrap">
+          <canvas id="chartDashMonthly"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── DASHBOARD DOLLAR SUMMARY ── -->
+    <div class="section-gap" style="margin-bottom:8px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">
+      <div style="font-family:'Fraunces',serif;font-size:15px;font-weight:600;color:var(--sky)">💰 Dollar Value Summary</div>
+      <span class="rate-badge" onclick="toggleRateEdit('dash')" title="Tap to edit rate">
+        ✏️ Rate: $<span id="dashRateDisplay">0.28</span>/kWh
+      </span>
+    </div>
+    <div id="dashRateEditRow" style="display:none;margin-bottom:10px">
+      <div class="rate-edit-row">
+        <span style="font-size:12px;color:var(--text-muted)">$/kWh:</span>
+        <input class="rate-input-inline" type="number" id="dashRateInput" step="0.01" min="0.01" max="2" placeholder="0.28" />
+        <button class="btn-rate-save" onclick="saveRate('dash')">Save</button>
+        <button class="btn btn-ghost" style="padding:6px 12px;font-size:11px;min-height:unset" onclick="toggleRateEdit('dash')">Cancel</button>
+      </div>
+    </div>
+    <div class="grid-4">
+      <div class="stat-tile saved">
+        <div class="stat-label">☀️ Saved This Month</div>
+        <div class="stat-number green" id="dashDollarSaved">$0.00</div>
+        <div class="stat-unit">solar generated × rate</div>
+      </div>
+      <div class="stat-tile banked">
+        <div class="stat-label">🏦 Banked (Rolling 12-Mo Credits)</div>
+        <div class="stat-number gold" id="dashDollarBankedYTD">$0.00</div>
+        <div class="stat-sub" id="dashDollarBankedMo" style="color:#276749"></div>
+      </div>
+      <div class="stat-tile owed">
+        <div class="stat-label">⚡ Owed This Month</div>
+        <div class="stat-number neg" id="dashDollarOwed">$0.00</div>
+        <div class="stat-unit">grid usage deficit × rate</div>
+      </div>
+      <div class="stat-tile netbanked" id="dashDollarNetTile">
+        <div class="stat-label">💵 Banked After Owed</div>
+        <div class="stat-number green" id="dashDollarNet">$0.00</div>
+        <div class="stat-unit">banked credits − owed this month</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ CHARTS ═══ -->
+  <div class="panel" id="panel-charts">
+    <div class="section-header">
+      <div class="section-title">Charts</div>
+      <select id="chartYearSelect" onchange="renderCharts()" style="width:auto;min-width:90px;padding:8px 10px;font-size:13px"></select>
+    </div>
+    <div class="main-grid-2">
+      <div class="card">
+        <div class="card-title"><span class="dot"></span>Solar vs. Used — Monthly</div>
+        <div class="chart-wrap-lg"><canvas id="chartMonthlyBar"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="dot"></span>Net Credits by Month</div>
+        <div class="chart-wrap-lg"><canvas id="chartNetLine"></canvas></div>
+      </div>
+    </div>
+    <div class="section-gap main-grid-2">
+      <div class="card">
+        <div class="card-title"><span class="dot"></span>Daily Balance — This Month</div>
+        <div class="chart-wrap"><canvas id="chartDailyBar"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="dot"></span>Annual Totals</div>
+        <div class="chart-wrap"><canvas id="chartAnnualBar"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ PREDICT ═══ -->
+  <div class="panel" id="panel-predict">
+    <div class="section-header">
+      <div class="section-title">Predictive Model</div>
+    </div>
+
+    <!-- WINTER GOAL SECTION -->
+    <div class="winter-goal-banner">
+      <div class="winter-goal-title">❄️ Winter Credit Goal — Oct, Nov, Dec</div>
+      <div class="winter-goal-sub">Maine net metering lets you bank summer credits to offset winter usage. This section shows how your forecast tracks against two winter usage scenarios.</div>
+    </div>
+
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-title"><span class="dot"></span>Winter Credit Goal Tracker</div>
+      <p style="font-size:11px;color:var(--text-muted);margin-bottom:16px;line-height:1.6">
+        Based on your annual forecast inputs below, this shows whether your banked Jan–Sep credits will cover your Oct–Dec needs under two scenarios.
+      </p>
+      <div id="winterGoalContent">
+        <div class="empty"><div class="empty-text">Run the annual forecast below to see winter goal projections.</div></div>
+      </div>
+    </div>
+
+    <!-- WINTER CHARTS -->
+    <div id="winterChartsSection" style="display:none">
+      <div class="main-grid-2">
+        <div class="card">
+          <div class="card-title"><span class="dot"></span>Scenario A — High Winter Usage<br><span style="font-size:11px;color:var(--deficit);font-family:'DM Mono',monospace;font-weight:400">1,100 kWh/mo Oct–Dec</span></div>
+          <div class="chart-wrap-lg"><canvas id="chartWinterHigh"></canvas></div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="dot"></span>Scenario B — Moderate Winter Usage<br><span style="font-size:11px;color:var(--credit);font-family:'DM Mono',monospace;font-weight:400">700 kWh/mo Oct–Dec</span></div>
+          <div class="chart-wrap-lg"><canvas id="chartWinterLow"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ANNUAL FORECAST INPUTS -->
+    <div class="card section-gap">
+      <div class="card-title"><span class="dot"></span>Annual Forecast Inputs</div>
+      <p style="font-size:11px;color:var(--text-muted);margin-bottom:16px;line-height:1.6">Enter anticipated monthly kWh totals. Leaving a field blank uses 0. Use "Pre-fill from actuals" to load real logged data.</p>
+
+      <div style="margin-bottom:10px"><span style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted)">☀️ Solar Generated (kWh/mo)</span></div>
+      <div class="predict-grid" id="predictSolarInputs"></div>
+
+      <div style="margin:16px 0 10px"><span style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted)">⚡ Household Used (kWh/mo)</span></div>
+      <div class="predict-grid" id="predictUsageInputs"></div>
+
+      <div class="btn-row" style="margin-top:16px">
+        <button class="btn btn-sun" onclick="runPrediction()">Run Forecast</button>
+        <button class="btn btn-ghost" onclick="fillPredictFromActuals()">Pre-fill actuals</button>
+        <button class="btn btn-ghost" onclick="clearPrediction()">Clear</button>
+      </div>
+    </div>
+
+    <div id="predictResults" style="display:none">
+      <div class="card section-gap">
+        <div class="card-title"><span class="dot"></span>Forecast Summary</div>
+        <div class="predict-result pos" id="predictSummary">
+          <div>
+            <div class="predict-result-label">Projected Annual Net</div>
+            <div class="predict-result-value" id="predictAnnualVal">0.0 kWh</div>
+          </div>
+          <div class="predict-meta">
+            <div class="predict-meta-item">
+              <span>Credit Months</span>
+              <span style="color:var(--credit)" id="predictCreditMonths">—</span>
+            </div>
+            <div class="predict-meta-item">
+              <span>Deficit Months</span>
+              <span style="color:var(--deficit)" id="predictDeficitMonths">—</span>
+            </div>
+          </div>
+        </div>
+        <div class="section-gap chart-wrap-lg">
+          <canvas id="chartPredict"></canvas>
+        </div>
+        <div class="divider"></div>
+        <div class="table-scroll">
+          <table class="data-table" id="predictTable"></table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ ARCHIVE ═══ -->
+  <div class="panel" id="panel-archive">
+    <div class="section-header"><div class="section-title">Archive &amp; Almanac</div></div>
+    <div id="archiveContent">
+      <div class="empty"><div class="empty-icon">📚</div><div class="empty-text">No historical data yet.</div></div>
+    </div>
+  </div>
+
+  <!-- ═══ SETTINGS ═══ -->
+  <div class="panel" id="panel-settings">
+    <div class="section-header"><div class="section-title">Settings</div></div>
+
+    <div class="card">
+      <div class="card-title"><span class="dot"></span>Electricity Rate</div>
+      <p style="font-size:11px;color:var(--text-muted);margin-bottom:16px;line-height:1.6">
+        Set your utility's rate per kWh. This is used for all three dollar calculations — Saved This Month, Banked Credits, and Owed This Month. Update it here whenever your rate changes.
+      </p>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Rate per kWh</div>
+          <div class="settings-desc">Current rate used for all dollar calculations</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px">
+          <div style="font-family:'Fraunces',serif;font-size:24px;font-weight:600;color:var(--sun)">$<span id="settingsRateDisplay">0.28</span></div>
+          <button class="btn btn-ghost" style="padding:8px 16px;font-size:11px;min-height:unset" onclick="toggleRateEdit('settings')">Edit</button>
+        </div>
+      </div>
+      <div id="settingsRateEditRow" style="display:none;padding-top:12px">
+        <div class="rate-edit-row">
+          <span style="font-size:12px;color:var(--text-muted)">New rate ($/kWh):</span>
+          <input class="rate-input-inline" type="number" id="settingsRateInput" step="0.01" min="0.01" max="2" placeholder="0.28" />
+          <button class="btn-rate-save" onclick="saveRate('settings')">Save</button>
+          <button class="btn btn-ghost" style="padding:6px 12px;font-size:11px;min-height:unset" onclick="toggleRateEdit('settings')">Cancel</button>
+        </div>
+        <div style="font-size:10px;color:var(--text-muted);margin-top:8px">Rate is saved to this device and persists between sessions.</div>
+      </div>
+    </div>
+
+    <div class="card section-gap">
+      <div class="card-title"><span class="dot"></span>How the Dollar Calculations Work</div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">☀️ Saved This Month</div>
+          <div class="settings-desc">Current month's solar kWh generated × rate. Represents money saved by not drawing that power from the grid.</div>
+        </div>
+      </div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">🏦 Banked (Rolling 12-Mo Credits)</div>
+          <div class="settings-desc">Unexpired net-metering credit kWh × rate. Maine credits expire after 12 months on a rolling basis (e.g. June 2025 credits must be used by June 2026). Months with a deficit use up the oldest credits first. Also shows this month's credit separately if positive.</div>
+        </div>
+      </div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">⚡ Owed This Month</div>
+          <div class="settings-desc">Current month's deficit kWh (usage minus solar, if negative) × rate. Shows $0.00 in any month where solar covered all usage.</div>
+        </div>
+      </div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">💵 Banked After Owed</div>
+          <div class="settings-desc">Banked (rolling 12-month credits) minus Owed This Month. Shows a negative amount if this month's deficit is larger than your unexpired credits.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card section-gap">
+      <div class="card-title"><span class="dot" style="background:var(--deficit)"></span>Data Management</div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Export All Data</div>
+          <div class="settings-desc">Download a backup of all your logged entries as a JSON file.</div>
+        </div>
+        <button class="btn btn-ghost" style="padding:8px 16px;font-size:11px;min-height:unset;flex-shrink:0" onclick="exportData()">Export JSON</button>
+      </div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Import Data</div>
+          <div class="settings-desc">Restore entries from a JSON backup exported from this app (for example, to move your data to a new device or web address). Matching dates are overwritten; everything else is kept.</div>
+        </div>
+        <button class="btn btn-ghost" style="padding:8px 16px;font-size:11px;min-height:unset;flex-shrink:0" onclick="document.getElementById('importFile').click()">Import JSON</button>
+        <input type="file" id="importFile" accept="application/json,.json" style="display:none" onchange="importData(event)">
+      </div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label" style="color:var(--deficit)">Clear All Data</div>
+          <div class="settings-desc">Permanently delete all logged entries. This cannot be undone.</div>
+        </div>
+        <button class="btn btn-danger" style="flex-shrink:0" onclick="clearAllData()">Clear Data</button>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /main -->
+
+<script>
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const MONTHS_FULL = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+// ── RATE MANAGEMENT ──
+const DEFAULT_RATE = 0.28;
+function loadRate() {
+  const r = parseFloat(localStorage.getItem('solarRate'));
+  return isNaN(r) ? DEFAULT_RATE : r;
+}
+function saveRateValue(r) {
+  localStorage.setItem('solarRate', r.toFixed(4));
+  updateRateDisplays();
+  renderAll();
+  if (document.getElementById('panel-dashboard').classList.contains('active')) renderDashboard();
+}
+function updateRateDisplays() {
+  const r = loadRate().toFixed(2);
+  ['logRateDisplay','dashRateDisplay','settingsRateDisplay'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = r;
+  });
+}
+function toggleRateEdit(ctx) {
+  const rowId = ctx === 'log' ? 'logRateEditRow' : ctx === 'dash' ? 'dashRateEditRow' : 'settingsRateEditRow';
+  const inputId = ctx === 'log' ? 'logRateInput' : ctx === 'dash' ? 'dashRateInput' : 'settingsRateInput';
+  const row = document.getElementById(rowId);
+  const isOpen = row.style.display !== 'none';
+  row.style.display = isOpen ? 'none' : 'block';
+  if (!isOpen) {
+    const inp = document.getElementById(inputId);
+    inp.value = loadRate().toFixed(2);
+    inp.focus();
+  }
+}
+function saveRate(ctx) {
+  const inputId = ctx === 'log' ? 'logRateInput' : ctx === 'dash' ? 'dashRateInput' : 'settingsRateInput';
+  const rowId = ctx === 'log' ? 'logRateEditRow' : ctx === 'dash' ? 'dashRateEditRow' : 'settingsRateEditRow';
+  const val = parseFloat(document.getElementById(inputId).value);
+  if (isNaN(val) || val <= 0) return alert('Please enter a valid rate greater than 0.');
+  saveRateValue(val);
+  document.getElementById(rowId).style.display = 'none';
+}
+
+// ── ROLLING CREDIT LEDGER (Maine: kWh credits expire after 12 months) ──
+// A credit earned in month M can be used through month M + CREDIT_LIFE_MONTHS
+// (e.g. June 2025 credits are usable through June 2026). Deficit months use up the
+// oldest credits first (FIFO).
+const CREDIT_LIFE_MONTHS = 12;
+function monthIdx(ym) { const [y, m] = ym.split('-'); return parseInt(y) * 12 + parseInt(m) - 1; }
+function rollingCredits(asOfYM) {
+  const asOf = monthIdx(asOfYM);
+  let batches = []; // [{idx, kwh}] oldest first
+  const expire = i => { batches = batches.filter(b => i - b.idx <= CREDIT_LIFE_MONTHS); };
+  // Fully settle every earlier month (credits added, deficits drawn from oldest credits)
+  allMonths().filter(m => monthIdx(m) < asOf).sort().forEach(m => {
+    const i = monthIdx(m);
+    expire(i);
+    const net = monthSum(m).net;
+    if (net > 0) batches.push({ idx: i, kwh: net });
+    else if (net < 0) {
+      let need = -net;
+      for (const b of batches) { const take = Math.min(b.kwh, need); b.kwh -= take; need -= take; if (need <= 0) break; }
+      batches = batches.filter(b => b.kwh > 0);
+    }
+  });
+  // The as-of month: add its credit, but hold its deficit aside (that is the "owed" amount)
+  expire(asOf);
+  const net = monthSum(asOfYM).net;
+  if (net > 0) batches.push({ idx: asOf, kwh: net });
+  const bankedKwh = batches.reduce((a, b) => a + b.kwh, 0);
+  const deficitKwh = net < 0 ? -net : 0;
+  // Next expiry: apply this month's deficit to the oldest credits first, then see what is left
+  let need = deficitKwh;
+  const left = batches.map(b => ({ idx: b.idx, kwh: b.kwh }));
+  for (const b of left) { const take = Math.min(b.kwh, need); b.kwh -= take; need -= take; if (need <= 0) break; }
+  const next = left.find(b => b.kwh > 0.005);
+  const expiring = next ? { kwh: next.kwh, ym: Math.floor((next.idx + CREDIT_LIFE_MONTHS) / 12) + '-' + String((next.idx + CREDIT_LIFE_MONTHS) % 12 + 1).padStart(2, '0') } : null;
+  return { bankedKwh, deficitKwh, balance: bankedKwh - deficitKwh, expiring };
+}
+
+// ── DOLLAR CALCULATIONS ──
+function calcDollars() {
+  const rate = loadRate();
+  const ym = currentYM();
+  const mo = monthSum(ym);
+  const saved = mo.solar * rate;
+
+  // Banked = unexpired credits (rolling 12 months) x rate
+  const rc = rollingCredits(ym);
+  const bankedYTD = rc.bankedKwh * rate;
+  const moCredit = mo.net > 0 ? mo.net * rate : 0;
+
+  // Owed this month = current month deficit x rate (0 if credit)
+  const owed = rc.deficitKwh * rate;
+
+  // Banked minus owed
+  const netBanked = bankedYTD - owed;
+
+  return { saved, bankedYTD, moCredit, owed, netBanked, rate };
+}
+
+function expiryText(rc) {
+  if (!rc.expiring) return '';
+  const [y, m] = rc.expiring.ym.split('-');
+  return '⏳ ' + rc.expiring.kwh.toFixed(1) + ' kWh expire after ' + MONTHS[parseInt(m) - 1] + ' ' + y;
+}
+
+function renderDollarTiles(prefix) {
+  const { saved, bankedYTD, moCredit, owed, netBanked } = calcDollars();
+  const fmt$ = v => '$' + v.toFixed(2);
+  document.getElementById(prefix + 'DollarSaved').textContent = fmt$(saved);
+  document.getElementById(prefix + 'DollarBankedYTD').textContent = fmt$(bankedYTD);
+  const moEl = document.getElementById(prefix + 'DollarBankedMo');
+  moEl.textContent = moCredit > 0 ? `+ ${fmt$(moCredit)} this month` : '';
+  document.getElementById(prefix + 'DollarOwed').textContent = fmt$(owed);
+  const netEl = document.getElementById(prefix + 'DollarNet');
+  const neg = netBanked < -0.005;
+  netEl.textContent = (neg ? '-' : '') + fmt$(Math.abs(netBanked));
+  netEl.className = 'stat-number ' + (neg ? 'neg' : 'green');
+  document.getElementById(prefix + 'DollarNetTile').className = 'stat-tile netbanked' + (neg ? ' short' : '');
+}
+
+// Export / Clear data
+function exportData() {
+  const blob = new Blob([JSON.stringify(DATA, null, 2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'solar-data-' + today() + '.json';
+  a.click();
+}
+function importData(ev) {
+  const file = ev.target.files && ev.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const obj = JSON.parse(reader.result);
+      if (!obj || typeof obj !== 'object' || Array.isArray(obj)) throw new Error('bad format');
+      const bad = Object.values(obj).some(v => !v || typeof v.solar !== 'number' || typeof v.usage !== 'number');
+      if (bad) throw new Error('bad entries');
+      const n = Object.keys(obj).length;
+      if (!confirm('Import ' + n + ' entries? Entries with the same date will be overwritten; all others are kept.')) return;
+      DATA = Object.assign({}, DATA, obj);
+      saveData(DATA);
+      renderAll();
+      if (document.getElementById('panel-dashboard').classList.contains('active')) renderDashboard();
+      alert('Imported ' + n + ' entries.');
+    } catch (e) {
+      alert('That file could not be imported. Please choose a JSON file exported from this app.');
+    }
+    ev.target.value = '';
+  };
+  reader.readAsText(file);
+}
+function clearAllData() {
+  if (!confirm('This will permanently delete ALL your logged data. Are you sure?')) return;
+  if (!confirm('Last chance — this cannot be undone. Delete everything?')) return;
+  DATA = {};
+  saveData(DATA);
+  renderAll();
+  if (document.getElementById('panel-dashboard').classList.contains('active')) renderDashboard();
+}
+
+
+function loadData() { try { return JSON.parse(localStorage.getItem('solarData') || '{}'); } catch(e) { return {}; } }
+function saveData(d) { localStorage.setItem('solarData', JSON.stringify(d)); }
+let DATA = loadData();
+
+// ── HELPERS ──
+function today() { return new Date().toISOString().slice(0,10); }
+function parseDate(s) { return new Date(s + 'T00:00:00'); }
+function fmt(n) { return (n >= 0 ? '+' : '') + n.toFixed(2); }
+function fmtAbs(n) { return Math.abs(n).toFixed(2); }
+function getMonthEntries(ym) {
+  return Object.entries(DATA).filter(([d]) => {
+    if (isMonthlyKey(d)) return ymFromMonthlyKey(d) === ym;
+    return d.startsWith(ym);
+  }).sort(([a],[b]) => a.localeCompare(b));
+}
+function getYearEntries(y) {
+  return Object.entries(DATA).filter(([d]) => {
+    if (isMonthlyKey(d)) return ymFromMonthlyKey(d).startsWith(y);
+    return d.startsWith(y);
+  }).sort(([a],[b]) => a.localeCompare(b));
+}
+function allYears() {
+  return [...new Set(Object.keys(DATA).map(d => {
+    if (isMonthlyKey(d)) return ymFromMonthlyKey(d).slice(0,4);
+    return d.slice(0,4);
+  }))].sort();
+}
+function allMonths() {
+  return [...new Set(Object.keys(DATA).map(d => {
+    if (isMonthlyKey(d)) return ymFromMonthlyKey(d);
+    return d.slice(0,7);
+  }))].sort();
+}
+function monthSum(ym) { let s=0,u=0; getMonthEntries(ym).forEach(([,v])=>{s+=v.solar;u+=v.usage;}); return {solar:s,usage:u,net:s-u}; }
+function yearSum(y) { let s=0,u=0; getYearEntries(y).forEach(([,v])=>{s+=v.solar;u+=v.usage;}); return {solar:s,usage:u,net:s-u}; }
+function currentYM() { const n=new Date(); return n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0'); }
+function currentYear() { return String(new Date().getFullYear()); }
+
+// ── TAB SWITCHING ──
+function switchTab(tab, el) {
+  document.querySelectorAll('.tab, .bnav-item').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll(`[data-tab="${tab}"]`).forEach(t => t.classList.add('active'));
+  if (el) el.classList.add('active');
+  document.getElementById('panel-' + tab).classList.add('active');
+  if (tab === 'dashboard') renderDashboard();
+  if (tab === 'charts') renderCharts();
+  if (tab === 'archive') renderArchive();
+  if (tab === 'predict') initPredict();
+  if (tab === 'settings') updateRateDisplays();
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+// ── MONTHLY BULK ENTRY ──
+const MONTHLY_KEY_PREFIX = 'monthly::';
+function monthlyKey(ym) { return MONTHLY_KEY_PREFIX + ym; }
+function isMonthlyKey(k) { return k.startsWith(MONTHLY_KEY_PREFIX); }
+function ymFromMonthlyKey(k) { return k.replace(MONTHLY_KEY_PREFIX, ''); }
+
+function populateBulkSelectors() {
+  const mSel = document.getElementById('bulkMonth');
+  const ySel = document.getElementById('bulkYear');
+  mSel.innerHTML = MONTHS_FULL.map((m,i) => `<option value="${i}">${m}</option>`).join('');
+  const now = new Date();
+  const curYear = now.getFullYear();
+  let yHtml = '';
+  for (let y = curYear; y >= curYear - 10; y--) yHtml += `<option value="${y}">${y}</option>`;
+  ySel.innerHTML = yHtml;
+  // Default to last month
+  let m = now.getMonth() - 1, y = curYear;
+  if (m < 0) { m = 11; y--; }
+  mSel.value = m;
+  ySel.value = y;
+}
+
+function addMonthlyEntry() {
+  const mo = parseInt(document.getElementById('bulkMonth').value);
+  const yr = parseInt(document.getElementById('bulkYear').value);
+  const solar = parseFloat(document.getElementById('bulkSolar').value);
+  const usage = parseFloat(document.getElementById('bulkUsage').value);
+  if (isNaN(solar) || solar < 0) return alert('Please enter a valid solar total.');
+  if (isNaN(usage) || usage < 0) return alert('Please enter a valid usage total.');
+  const ym = yr + '-' + String(mo + 1).padStart(2, '0');
+  // Check if daily entries already exist for this month
+  const existing = getMonthEntries(ym).filter(([k]) => !isMonthlyKey(k));
+  if (existing.length > 0) {
+    if (!confirm(`There are already ${existing.length} daily entries for ${MONTHS_FULL[mo]} ${yr}. Adding a monthly total will coexist with them — totals will include both. Continue?`)) return;
+  }
+  DATA[monthlyKey(ym)] = { solar, usage, monthly: true };
+  saveData(DATA);
+  document.getElementById('bulkSolar').value = '';
+  document.getElementById('bulkUsage').value = '';
+  // Switch log view to that month
+  populateMonthFilter();
+  document.getElementById('logMonthFilter').value = ym;
+  renderLogTable();
+  renderHeader();
+}
+
+function deleteMonthlyEntry(ym) {
+  if (!confirm('Delete monthly total for ' + ym + '?')) return;
+  delete DATA[monthlyKey(ym)];
+  saveData(DATA);
+  renderAll();
+}
+
+
+function addEntry() {
+  const date = document.getElementById('entryDate').value;
+  const solar = parseFloat(document.getElementById('entrySolar').value);
+  const usage = parseFloat(document.getElementById('entryUsage').value);
+  if (!date) return alert('Please select a date.');
+  if (isNaN(solar) || solar < 0) return alert('Please enter a valid solar value.');
+  if (isNaN(usage) || usage < 0) return alert('Please enter a valid usage value.');
+  DATA[date] = { solar, usage };
+  saveData(DATA);
+  document.getElementById('entrySolar').value = '';
+  document.getElementById('entryUsage').value = '';
+  renderAll();
+}
+function deleteEntry(date) {
+  if (!confirm('Delete entry for ' + date + '?')) return;
+  delete DATA[date]; saveData(DATA); renderAll();
+}
+
+// ── HEADER ──
+function renderHeader() {
+  const mo = monthSum(currentYM());
+  const yr = { net: rollingCredits(currentYM()).balance };
+  const hMo = document.getElementById('hMonthBal');
+  hMo.textContent = fmt(mo.net) + ' kWh';
+  hMo.className = 'hstat-value ' + (mo.net >= 0 ? 'positive' : 'negative');
+  const hYr = document.getElementById('hYearBal');
+  hYr.textContent = fmt(yr.net) + ' kWh';
+  hYr.className = 'hstat-value ' + (yr.net >= 0 ? 'positive' : 'negative');
+}
+
+// ── LOG TABLE ──
+function populateMonthFilter() {
+  const sel = document.getElementById('logMonthFilter');
+  const cur = sel.value;
+  const ym = currentYM();
+  const options = [...new Set([ym, ...allMonths()])].sort().reverse();
+  sel.innerHTML = options.map(m => {
+    const [y,mo] = m.split('-');
+    return `<option value="${m}" ${m===(cur||ym)?'selected':''}>${MONTHS_FULL[parseInt(mo)-1]} ${y}</option>`;
+  }).join('');
+  if (!cur) sel.value = ym;
+}
+function renderLogTable() {
+  const ym = document.getElementById('logMonthFilter').value || currentYM();
+  const entries = getMonthEntries(ym);
+  const mo = monthSum(ym);
+  document.getElementById('tileMoSolar').textContent = mo.solar.toFixed(2);
+  document.getElementById('tileMoUsage').textContent = mo.usage.toFixed(2);
+  document.getElementById('tileMoBal').textContent = fmtAbs(mo.net);
+  document.getElementById('tileMoBalLabel').textContent = mo.net >= 0 ? 'kWh net credit' : 'kWh net deficit';
+  document.getElementById('tileMoBal').className = 'stat-number ' + (mo.net >= 0 ? 'pos' : 'neg');
+  document.getElementById('tileMoBalTile').className = 'stat-tile ' + (mo.net >= 0 ? 'credit' : 'deficit');
+  const rc_ = rollingCredits(ym);
+  document.getElementById('tileYrBal').textContent = fmtAbs(rc_.balance);
+  document.getElementById('tileYrBalLabel').textContent = rc_.balance >= 0 ? 'kWh unexpired credit' : 'kWh net deficit';
+  document.getElementById('tileYrBal').className = 'stat-number ' + (rc_.balance >= 0 ? 'pos' : 'neg');
+  document.getElementById('tileYrBalTile').className = 'stat-tile ' + (rc_.balance >= 0 ? 'credit' : 'deficit');
+  document.getElementById('tileExpiry').textContent = expiryText(rc_);
+  document.getElementById('logEntriesCount').textContent = entries.length + ' entries';
+  const wrap = document.getElementById('logTableWrap');
+  if (entries.length === 0) {
+    wrap.innerHTML = '<div class="empty"><div class="empty-icon">📋</div><div class="empty-text">No entries for this month.</div></div>';
+    return;
+  }
+  // Separate monthly vs daily entries
+  const monthlyEntries = entries.filter(([k]) => isMonthlyKey(k));
+  const dailyEntries = entries.filter(([k]) => !isMonthlyKey(k));
+
+  let run = 0;
+  const buildRow = (key, v, isMonthly) => {
+    const net = v.solar - v.usage; run += net;
+    if (isMonthly) {
+      const [y, mo] = ymFromMonthlyKey(key).split('-');
+      const label = MONTHS_FULL[parseInt(mo)-1] + ' ' + y + ' (monthly total)';
+      return `<tr class="row-monthly">
+        <td style="white-space:nowrap">${label} <span class="badge badge-monthly">monthly</span></td>
+        <td style="color:var(--sun)">${v.solar.toFixed(2)}</td>
+        <td style="color:var(--sky-light)">${v.usage.toFixed(2)}</td>
+        <td><span class="badge ${net>=0?'badge-credit':'badge-deficit'}">${fmt(net)}</span></td>
+        <td style="color:var(--text-muted)">—</td>
+        <td><button class="btn btn-danger" onclick="deleteMonthlyEntry('${ymFromMonthlyKey(key)}')">✕</button></td>
+      </tr>`;
+    } else {
+      const label = parseDate(key).toLocaleDateString('en-US', {weekday:'short',month:'short',day:'numeric'});
+      return `<tr>
+        <td style="white-space:nowrap">${label}</td>
+        <td style="color:var(--sun)">${v.solar.toFixed(2)}</td>
+        <td style="color:var(--sky-light)">${v.usage.toFixed(2)}</td>
+        <td><span class="badge ${net>=0?'badge-credit':'badge-deficit'}">${fmt(net)}</span></td>
+        <td style="color:var(--text-muted)">${fmt(run)}</td>
+        <td><button class="btn btn-danger" onclick="deleteEntry('${key}')">✕</button></td>
+      </tr>`;
+    }
+  };
+
+  const monthlyRows = monthlyEntries.map(([k,v]) => buildRow(k, v, true)).join('');
+  const dailyRows = dailyEntries.map(([k,v]) => buildRow(k, v, false)).join('');
+  const dividerRow = (monthlyRows && dailyRows) ? `<tr><td colspan="6" style="padding:4px 10px;background:var(--bg);font-size:10px;color:var(--text-muted);letter-spacing:0.06em;text-transform:uppercase">Daily entries</td></tr>` : '';
+  wrap.innerHTML = `<div class="table-scroll"><table class="data-table"><thead><tr><th>Date</th><th>☀️ Gen</th><th>⚡ Use</th><th>Balance</th><th>Running</th><th></th></tr></thead><tbody>${monthlyRows}${dividerRow}${dailyRows}</tbody></table></div>`;
+}
+
+// ── DASHBOARD ──
+let chartDashMonthly = null;
+function renderDashboard() {
+  const ym = currentYM(), yr = currentYear();
+  const mo = monthSum(ym), rcD = rollingCredits(ym), yrs = { net: rcD.balance };
+  document.getElementById('dashExpiry').textContent = expiryText(rcD);
+  document.getElementById('dashMoSolar').textContent = mo.solar.toFixed(2);
+  document.getElementById('dashMoUsage').textContent = mo.usage.toFixed(2);
+  const dMoBal = document.getElementById('dashMoBal');
+  dMoBal.textContent = fmtAbs(mo.net);
+  dMoBal.className = 'stat-number ' + (mo.net>=0?'pos':'neg');
+  document.getElementById('dashMoBalUnit').textContent = mo.net>=0?'kWh credit':'kWh deficit';
+  document.getElementById('dashMoBalTile').className = 'stat-tile '+(mo.net>=0?'credit':'deficit');
+  const dYrBal = document.getElementById('dashYrBal');
+  dYrBal.textContent = fmtAbs(yrs.net);
+  dYrBal.className = 'stat-number '+(yrs.net>=0?'pos':'neg');
+  document.getElementById('dashYrBalUnit').textContent = yrs.net>=0?'kWh credit':'kWh deficit';
+  document.getElementById('dashYrBalTile').className = 'stat-tile '+(yrs.net>=0?'credit':'deficit');
+  const pct = mo.usage>0 ? Math.min(100,(mo.solar/mo.usage)*100) : (mo.solar>0?100:0);
+  document.getElementById('dashBar').style.width = pct+'%';
+  document.getElementById('dashBar').className = 'balance-bar-fill'+(mo.net<0?' neg':'');
+  document.getElementById('dashBarPct').textContent = pct.toFixed(0)+'% solar coverage';
+  document.getElementById('dashBarSolar').textContent = mo.solar.toFixed(1);
+  document.getElementById('dashBarUsage').textContent = mo.usage.toFixed(1);
+  const insight = document.getElementById('dashInsight');
+  if (mo.solar===0&&mo.usage===0) { insight.textContent = 'No data logged this month yet.'; }
+  else {
+    const status = mo.net>=0
+      ? `✅ Generating <strong>${fmtAbs(mo.net)} kWh</strong> more than used — banking credits.`
+      : `⚠️ Used <strong>${fmtAbs(mo.net)} kWh</strong> more than generated — drawing on credits.`;
+    insight.innerHTML = `<strong>${pct.toFixed(0)}%</strong> of usage covered by solar this month.<br><br>${status}`;
+  }
+  const recent = Object.entries(DATA).sort(([a],[b])=>b.localeCompare(a)).slice(0,7);
+  const recWrap = document.getElementById('dashRecentTable');
+  if (!recent.length) { recWrap.innerHTML='<div class="empty"><div class="empty-text">No entries yet.</div></div>'; }
+  else {
+    const rows = recent.map(([date,v])=>{
+      const net=v.solar-v.usage;
+      const label = parseDate(date).toLocaleDateString('en-US',{month:'short',day:'numeric'});
+      return `<tr><td>${label}</td><td style="color:var(--sun)">${v.solar.toFixed(1)}</td><td style="color:var(--sky-light)">${v.usage.toFixed(1)}</td><td><span class="badge ${net>=0?'badge-credit':'badge-deficit'}">${fmt(net)}</span></td></tr>`;
+    }).join('');
+    recWrap.innerHTML = `<div class="table-scroll"><table class="data-table"><thead><tr><th>Date</th><th>☀️</th><th>⚡</th><th>Net</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+  }
+  const months12=[]; const now=new Date();
+  for(let i=11;i>=0;i--){const d=new Date(now.getFullYear(),now.getMonth()-i,1);months12.push(d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0'));}
+  const labels=months12.map(ym=>{const[y,m]=ym.split('-');return MONTHS[parseInt(m)-1]+"'"+y.slice(2);});
+  const netData=months12.map(ym=>parseFloat(monthSum(ym).net.toFixed(2)));
+  const ctx=document.getElementById('chartDashMonthly').getContext('2d');
+  if(chartDashMonthly) chartDashMonthly.destroy();
+  chartDashMonthly=new Chart(ctx,{type:'bar',data:{labels,datasets:[{label:'Net Balance (kWh)',data:netData,backgroundColor:netData.map(v=>v>=0?'rgba(72,187,120,0.7)':'rgba(245,101,101,0.7)'),borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{grid:{color:'rgba(0,0,0,0.05)'}}}}});
+
+  // Dollar tiles on dashboard
+  renderDollarTiles('dash');
+  updateRateDisplays();
+}
+
+// ── CHARTS ──
+let chartMonthlyBar=null,chartNetLine=null,chartDailyBar=null,chartAnnualBar=null;
+function populateChartYearSelect() {
+  const sel=document.getElementById('chartYearSelect');
+  const cur=sel.value;
+  const years=[...new Set([currentYear(),...allYears()])].sort().reverse();
+  sel.innerHTML=years.map(y=>`<option value="${y}" ${y===(cur||currentYear())?'selected':''}>${y}</option>`).join('');
+}
+function renderCharts() {
+  populateChartYearSelect();
+  const yr=document.getElementById('chartYearSelect').value||currentYear();
+  const monthData=MONTHS.map((_,i)=>monthSum(yr+'-'+String(i+1).padStart(2,'0')));
+  const solarData=monthData.map(m=>parseFloat(m.solar.toFixed(2)));
+  const usageData=monthData.map(m=>parseFloat(m.usage.toFixed(2)));
+  const netData=monthData.map(m=>parseFloat(m.net.toFixed(2)));
+  const ctx1=document.getElementById('chartMonthlyBar').getContext('2d');
+  if(chartMonthlyBar) chartMonthlyBar.destroy();
+  chartMonthlyBar=new Chart(ctx1,{type:'bar',data:{labels:MONTHS,datasets:[{label:'Solar Generated',data:solarData,backgroundColor:'rgba(245,166,35,0.75)',borderRadius:3},{label:'Household Used',data:usageData,backgroundColor:'rgba(61,107,158,0.65)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top'}},scales:{y:{grid:{color:'rgba(0,0,0,0.05)'},title:{display:true,text:'kWh'}}}}});
+  const ctx2=document.getElementById('chartNetLine').getContext('2d');
+  if(chartNetLine) chartNetLine.destroy();
+  chartNetLine=new Chart(ctx2,{type:'line',data:{labels:MONTHS,datasets:[{label:'Net Credits (kWh)',data:netData,borderColor:'#F5A623',backgroundColor:'rgba(245,166,35,0.08)',pointBackgroundColor:netData.map(v=>v>=0?'#48BB78':'#F56565'),pointRadius:5,tension:0.3,fill:true}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{grid:{color:'rgba(0,0,0,0.05)'},title:{display:true,text:'kWh (+ credit / – deficit)'}}}}});
+  const ym=currentYM();
+  const ymSel=yr===currentYear()?ym:yr+'-01';
+  const entries=getMonthEntries(ymSel).slice(-31);
+  const dLabels=entries.map(([d])=>String(parseDate(d).getDate()));
+  const dNet=entries.map(([,v])=>parseFloat((v.solar-v.usage).toFixed(2)));
+  const ctx3=document.getElementById('chartDailyBar').getContext('2d');
+  if(chartDailyBar) chartDailyBar.destroy();
+  chartDailyBar=new Chart(ctx3,{type:'bar',data:{labels:dLabels,datasets:[{label:'Daily Net (kWh)',data:dNet,backgroundColor:dNet.map(v=>v>=0?'rgba(72,187,120,0.7)':'rgba(245,101,101,0.65)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{grid:{color:'rgba(0,0,0,0.05)'}}}}});
+  const years=[...new Set([currentYear(),...allYears()])].sort();
+  const ctx4=document.getElementById('chartAnnualBar').getContext('2d');
+  if(chartAnnualBar) chartAnnualBar.destroy();
+  chartAnnualBar=new Chart(ctx4,{type:'bar',data:{labels:years,datasets:[{label:'Solar Generated',data:years.map(y=>parseFloat(yearSum(y).solar.toFixed(2))),backgroundColor:'rgba(245,166,35,0.75)',borderRadius:4},{label:'Household Used',data:years.map(y=>parseFloat(yearSum(y).usage.toFixed(2))),backgroundColor:'rgba(61,107,158,0.65)',borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top'}},scales:{y:{grid:{color:'rgba(0,0,0,0.05)'}}}}});
+}
+
+// ── PREDICTION ──
+let chartPredict=null, chartWinterHigh=null, chartWinterLow=null;
+const HIGH_SCENARIO = 1100; // kWh per month Oct/Nov/Dec
+const LOW_SCENARIO = 700;
+
+function initPredict() {
+  const sWrap=document.getElementById('predictSolarInputs');
+  const uWrap=document.getElementById('predictUsageInputs');
+  if(sWrap.children.length>0) return;
+  MONTHS.forEach((m,i)=>{
+    sWrap.innerHTML+=`<div class="predict-cell"><label>${m}</label><input type="number" id="ps_${i}" placeholder="kWh" step="0.1" min="0" inputmode="decimal"></div>`;
+    uWrap.innerHTML+=`<div class="predict-cell"><label>${m}</label><input type="number" id="pu_${i}" placeholder="kWh" step="0.1" min="0" inputmode="decimal"></div>`;
+  });
+}
+function fillPredictFromActuals() {
+  const yr=currentYear();
+  MONTHS.forEach((_,i)=>{
+    const ym=yr+'-'+String(i+1).padStart(2,'0');
+    const s=monthSum(ym);
+    if(s.solar>0) document.getElementById('ps_'+i).value=s.solar.toFixed(1);
+    if(s.usage>0) document.getElementById('pu_'+i).value=s.usage.toFixed(1);
+  });
+}
+function clearPrediction() {
+  MONTHS.forEach((_,i)=>{document.getElementById('ps_'+i).value='';document.getElementById('pu_'+i).value='';});
+  document.getElementById('predictResults').style.display='none';
+  document.getElementById('winterChartsSection').style.display='none';
+  document.getElementById('winterGoalContent').innerHTML='<div class="empty"><div class="empty-text">Run the annual forecast below to see winter goal projections.</div></div>';
+}
+
+function runPrediction() {
+  const solar=MONTHS.map((_,i)=>parseFloat(document.getElementById('ps_'+i).value)||0);
+  const usage=MONTHS.map((_,i)=>parseFloat(document.getElementById('pu_'+i).value)||0);
+  const net=solar.map((s,i)=>s-usage[i]);
+  const annualNet=net.reduce((a,b)=>a+b,0);
+  const creditMonths=net.filter(v=>v>0).length;
+  const deficitMonths=net.filter(v=>v<0).length;
+
+  // Summary
+  document.getElementById('predictAnnualVal').textContent=fmt(annualNet)+' kWh';
+  document.getElementById('predictSummary').className='predict-result '+(annualNet>=0?'pos':'neg');
+  document.getElementById('predictCreditMonths').textContent=creditMonths+' months';
+  document.getElementById('predictDeficitMonths').textContent=deficitMonths+' months';
+
+  // Table
+  let rows=MONTHS.map((m,i)=>`<tr><td>${m}</td><td style="color:var(--sun)">${solar[i].toFixed(1)}</td><td style="color:var(--sky-light)">${usage[i].toFixed(1)}</td><td><span class="badge ${net[i]>=0?'badge-credit':'badge-deficit'}">${fmt(net[i])} kWh</span></td></tr>`).join('');
+  document.getElementById('predictTable').innerHTML=`<thead><tr><th>Month</th><th>Solar (kWh)</th><th>Used (kWh)</th><th>Net Balance</th></tr></thead><tbody>${rows}</tbody>`;
+
+  // Annual chart
+  const ctx=document.getElementById('chartPredict').getContext('2d');
+  if(chartPredict) chartPredict.destroy();
+  chartPredict=new Chart(ctx,{type:'bar',data:{labels:MONTHS,datasets:[{label:'Solar Generated',data:solar,backgroundColor:'rgba(245,166,35,0.75)',borderRadius:3},{label:'Household Used',data:usage,backgroundColor:'rgba(61,107,158,0.65)',borderRadius:3},{label:'Net Balance',data:net,type:'line',borderColor:net.map(v=>v>=0?'#48BB78':'#F56565'),backgroundColor:'transparent',pointBackgroundColor:net.map(v=>v>=0?'#48BB78':'#F56565'),pointRadius:5,tension:0.3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top'}},scales:{y:{grid:{color:'rgba(0,0,0,0.05)'}}}}});
+
+  document.getElementById('predictResults').style.display='block';
+
+  // ── WINTER GOAL CALCULATIONS ──
+  // Jan–Sep banked credits (months 0-8), then Oct–Dec draws (months 9-11)
+  // For each scenario: override Oct/Nov/Dec usage with scenario value, keep solar from inputs
+  renderWinterGoal(solar, usage, net, annualNet);
+
+  document.getElementById('predictResults').scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+function renderWinterGoal(solar, usage, net, annualNet) {
+  // Banked credits from Jan–Sep (months 0–8) using forecast
+  const janSepNet = net.slice(0,9).reduce((a,b)=>a+b,0);
+
+  // For each scenario, override Oct/Nov/Dec usage
+  function scenarioCalc(winterUsagePerMonth) {
+    const s = [...solar]; // same solar
+    const u = [...usage];
+    // Override Oct(9), Nov(10), Dec(11)
+    u[9] = winterUsagePerMonth;
+    u[10] = winterUsagePerMonth;
+    u[11] = winterUsagePerMonth;
+    const n = s.map((sv,i) => sv - u[i]);
+    const winterSolar = s.slice(9).reduce((a,b)=>a+b,0);
+    const winterUsage = u.slice(9).reduce((a,b)=>a+b,0);
+    const winterNet = n.slice(9).reduce((a,b)=>a+b,0);
+    const totalAnnualNet = n.reduce((a,b)=>a+b,0);
+    // Running cumulative balance month by month
+    let cumulative = [];
+    let running = 0;
+    n.forEach(v => { running += v; cumulative.push(parseFloat(running.toFixed(2))); });
+    return { n, u, s, winterSolar, winterUsage, winterNet, totalAnnualNet, cumulative };
+  }
+
+  const high = scenarioCalc(HIGH_SCENARIO);
+  const low  = scenarioCalc(LOW_SCENARIO);
+
+  // Winter goal = total Oct+Nov+Dec usage
+  const highWinterNeed = HIGH_SCENARIO * 3;
+  const lowWinterNeed  = LOW_SCENARIO * 3;
+
+  // How much is covered by banked Jan-Sep credits + Oct-Dec solar?
+  const highWinterSolar = high.s.slice(9).reduce((a,b)=>a+b,0);
+  const lowWinterSolar  = low.s.slice(9).reduce((a,b)=>a+b,0);
+  const highCoverage = janSepNet + highWinterSolar; // total energy available for winter
+  const lowCoverage  = janSepNet + lowWinterSolar;
+  const highShortfall = highWinterNeed - highCoverage;
+  const lowShortfall  = lowWinterNeed  - lowCoverage;
+  const highPct = Math.min(100, Math.max(0, (highCoverage / highWinterNeed) * 100));
+  const lowPct  = Math.min(100, Math.max(0, (lowCoverage  / lowWinterNeed)  * 100));
+
+  // Render tracker
+  const winHtml = `
+    <div class="scenario-cards">
+      <div class="scenario-card high">
+        <div class="scenario-label">Scenario A — 1,100 kWh/mo</div>
+        <div class="scenario-value">${highShortfall > 0 ? '-'+Math.abs(highShortfall).toFixed(0) : '+'+Math.abs(highShortfall).toFixed(0)} kWh</div>
+        <div class="scenario-detail">${highShortfall > 0 ? `Projected shortfall of ${Math.abs(highShortfall).toFixed(0)} kWh. You\'ll need grid power for the balance.` : `Projected surplus of ${Math.abs(highShortfall).toFixed(0)} kWh — full winter covered!`}</div>
+      </div>
+      <div class="scenario-card low">
+        <div class="scenario-label">Scenario B — 700 kWh/mo</div>
+        <div class="scenario-value">${lowShortfall > 0 ? '-'+Math.abs(lowShortfall).toFixed(0) : '+'+Math.abs(lowShortfall).toFixed(0)} kWh</div>
+        <div class="scenario-detail">${lowShortfall > 0 ? `Projected shortfall of ${Math.abs(lowShortfall).toFixed(0)} kWh. Some grid power needed.` : `Projected surplus of ${Math.abs(lowShortfall).toFixed(0)} kWh — full winter covered!`}</div>
+      </div>
+    </div>
+    <div style="margin-bottom:14px">
+      <div class="goal-progress-wrap">
+        <div class="goal-progress-label"><span>Scenario A — Coverage of 3,300 kWh winter need</span><span>${highPct.toFixed(0)}%</span></div>
+        <div class="goal-progress-track">
+          <div class="goal-progress-fill ${highPct>=100?'good':highPct>=70?'warn':'bad'}" style="width:${highPct}%"></div>
+        </div>
+      </div>
+      <div class="goal-progress-wrap" style="margin-top:10px">
+        <div class="goal-progress-label"><span>Scenario B — Coverage of 2,100 kWh winter need</span><span>${lowPct.toFixed(0)}%</span></div>
+        <div class="goal-progress-track">
+          <div class="goal-progress-fill ${lowPct>=100?'good':lowPct>=70?'warn':'bad'}" style="width:${lowPct}%"></div>
+        </div>
+      </div>
+    </div>
+    <div style="font-size:11px;color:var(--text-muted);line-height:1.6">
+      <strong>Banked Jan–Sep credits (forecast):</strong> ${fmt(janSepNet)} kWh &nbsp;·&nbsp;
+      <strong>Oct–Dec solar (forecast):</strong> +${highWinterSolar.toFixed(0)} kWh &nbsp;·&nbsp;
+      <strong>Total available for winter:</strong> ${highCoverage.toFixed(0)} kWh
+    </div>`;
+  document.getElementById('winterGoalContent').innerHTML = winHtml;
+
+  // ── WINTER SCENARIO CHARTS ──
+  // Cumulative running balance — full year
+  const cumulLabels = MONTHS;
+
+  // Chart: High scenario (1100 kWh)
+  const ctxH = document.getElementById('chartWinterHigh').getContext('2d');
+  if(chartWinterHigh) chartWinterHigh.destroy();
+  chartWinterHigh = new Chart(ctxH, {
+    type: 'bar',
+    data: {
+      labels: cumulLabels,
+      datasets: [
+        { label: 'Solar Generated', data: high.s, backgroundColor: MONTHS.map((_,i)=>i>=9?'rgba(245,101,101,0.35)':'rgba(245,166,35,0.7)'), borderRadius: 3, order: 2 },
+        { label: 'Household Used', data: high.u, backgroundColor: MONTHS.map((_,i)=>i>=9?'rgba(245,101,101,0.65)':'rgba(61,107,158,0.5)'), borderRadius: 3, order: 2 },
+        { label: 'Cumulative Net Balance', data: high.cumulative, type: 'line',
+          borderColor: '#F5A623', backgroundColor: 'rgba(245,166,35,0.06)',
+          pointBackgroundColor: high.cumulative.map(v=>v>=0?'#48BB78':'#F56565'),
+          pointRadius: 5, tension: 0.3, fill: true, order: 1, yAxisID: 'y' }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { position: 'top', labels: { font: { size: 10 } } },
+        annotation: {},
+        tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': ' + ctx.parsed.y.toFixed(1) + ' kWh' } }
+      },
+      scales: {
+        y: { grid: { color: 'rgba(0,0,0,0.05)' }, title: { display: true, text: 'kWh' } }
+      }
+    }
+  });
+
+  // Chart: Low scenario (700 kWh)
+  const ctxL = document.getElementById('chartWinterLow').getContext('2d');
+  if(chartWinterLow) chartWinterLow.destroy();
+  chartWinterLow = new Chart(ctxL, {
+    type: 'bar',
+    data: {
+      labels: cumulLabels,
+      datasets: [
+        { label: 'Solar Generated', data: low.s, backgroundColor: MONTHS.map((_,i)=>i>=9?'rgba(72,187,120,0.35)':'rgba(245,166,35,0.7)'), borderRadius: 3, order: 2 },
+        { label: 'Household Used', data: low.u, backgroundColor: MONTHS.map((_,i)=>i>=9?'rgba(72,187,120,0.65)':'rgba(61,107,158,0.5)'), borderRadius: 3, order: 2 },
+        { label: 'Cumulative Net Balance', data: low.cumulative, type: 'line',
+          borderColor: '#48BB78', backgroundColor: 'rgba(72,187,120,0.06)',
+          pointBackgroundColor: low.cumulative.map(v=>v>=0?'#48BB78':'#F56565'),
+          pointRadius: 5, tension: 0.3, fill: true, order: 1, yAxisID: 'y' }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { position: 'top', labels: { font: { size: 10 } } },
+        tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': ' + ctx.parsed.y.toFixed(1) + ' kWh' } }
+      },
+      scales: {
+        y: { grid: { color: 'rgba(0,0,0,0.05)' }, title: { display: true, text: 'kWh' } }
+      }
+    }
+  });
+
+  document.getElementById('winterChartsSection').style.display = 'block';
+}
+
+// ── ARCHIVE ──
+function renderArchive() {
+  const wrap=document.getElementById('archiveContent');
+  const years=allYears().sort().reverse();
+  if(!years.length){wrap.innerHTML='<div class="empty"><div class="empty-icon">📚</div><div class="empty-text">No historical data yet.</div></div>';return;}
+  wrap.innerHTML=years.map(yr=>{
+    const yTot=yearSum(yr);
+    const monthRows=MONTHS.map((m,i)=>{
+      const ym=yr+'-'+String(i+1).padStart(2,'0');
+      const s=monthSum(ym);
+      const ec=getMonthEntries(ym).length;
+      if(ec===0&&s.solar===0) return '';
+      return `<tr><td style="font-weight:500">${m} ${yr}</td><td style="color:var(--sun)">${s.solar.toFixed(2)}</td><td style="color:var(--sky-light)">${s.usage.toFixed(2)}</td><td><span class="badge ${s.net>=0?'badge-credit':'badge-deficit'}">${fmt(s.net)} kWh</span></td><td style="color:var(--text-muted);font-size:11px">${ec}d</td></tr>`;
+    }).filter(Boolean).join('');
+    return `<div class="archive-year">
+      <div class="archive-year-header">${yr}</div>
+      <div class="archive-meta" style="margin-bottom:10px">Annual net: <strong style="color:${yTot.net>=0?'var(--credit)':'var(--deficit)'}">${fmt(yTot.net)} kWh</strong> &nbsp;·&nbsp; ☀️ ${yTot.solar.toFixed(1)} generated &nbsp;·&nbsp; ⚡ ${yTot.usage.toFixed(1)} used</div>
+      <div class="card" style="padding:0;overflow:hidden">
+        <div class="table-scroll"><table class="data-table"><thead><tr><th>Month</th><th>Solar</th><th>Used</th><th>Net</th><th>Days</th></tr></thead><tbody>${monthRows}</tbody></table></div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── RENDER ALL ──
+function renderAll() {
+  renderHeader();
+  populateMonthFilter();
+  renderLogTable();
+  renderDollarTiles('tile');
+  updateRateDisplays();
+}
+
+// ── INIT ──
+document.getElementById('entryDate').value = today();
+populateBulkSelectors();
+updateRateDisplays();
+renderAll();
+</script>
+</body>
+</html>
